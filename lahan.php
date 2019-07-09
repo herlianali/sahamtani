@@ -11,8 +11,8 @@
 	<label>Alamat Lahan : </label>
 	<input type="text" name="alamat">
 	<br>
-	<label>Biaya : </label>
-	<input type="text" name="biaya">
+	<label>Biaya : Rp </label>
+	<input type="number" name="biaya">
 	<br>
 	<label>Keterangan : </label>
 	<input type="text" name="keterangan">

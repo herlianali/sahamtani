@@ -29,7 +29,7 @@ include "proses/koneksi.php";
 
 	?> 
 	<tbody>
-		<td><?php echo $data['foto_lahan']; ?></td>
+		<td><?php echo $data['foto_lahan']; ?><div><img src="gambar/upload/lahan/<?php echo $data['foto_lahan']; ?>"></div></td>
 		<td><?php echo $data['keterangan']; ?></td>
 		<td><?php echo $data['alamat']; ?></td>
 		<td><?php echo $data['biaya']; ?></td>
